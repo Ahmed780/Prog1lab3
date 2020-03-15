@@ -1,11 +1,9 @@
 import java.util.*;
-
 public class Seasonfinal {
 
   public static void main(String[] args) {
 
   double celsius;
-
   Scanner temp = new Scanner(System.in);
 
   System.out.println("\nPlease enter a whole number");
