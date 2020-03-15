@@ -1,10 +1,9 @@
 import java.util.*;
-
 public class Match {
-  public static void main(String[] args) {
+  
+    public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
-
     System.out.println("\nPlease enter your password" );
   	String password = input.next();
 
