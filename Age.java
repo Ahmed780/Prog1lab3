@@ -11,8 +11,8 @@ public class Age{
     }
     public static void main(String[]args){
         System.out.println("Enter birthday in yyyy-mm-dd");
-        Scanner z=new Scanner(System.in);
-        String birthday= z.nextLine();
+        Scanner dob=new Scanner(System.in);
+        String birthday= dob.nextLine();
         
         LocalDate x=LocalDate.parse(birthday);
         System.out.println("You are " + today(x));
