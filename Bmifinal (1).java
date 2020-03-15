@@ -30,7 +30,6 @@ public class Bmifinal {
     System.out.println("\nYou are obese");
     }
     // prints bmi classification based on bmi
-         
-	   
+         	   
     }
 }
