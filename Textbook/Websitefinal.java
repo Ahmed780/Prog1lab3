@@ -1,10 +1,9 @@
 import java.util.*;
-
 public class Websitefinal {
-  public static void main(String[] args) {
+  
+    public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
-
     System.out.println("Please enter an URL links" );
     String word = input.nextLine();
 
