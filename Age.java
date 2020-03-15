@@ -3,7 +3,7 @@ import java.time.Period;
 import java.util.*;
 import java.util.Calendar;
 
-public class Lab3Question5{
+public class Age{
     
     public static int today(LocalDate x){
         LocalDate date=LocalDate.now();
