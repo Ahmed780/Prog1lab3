@@ -11,7 +11,6 @@ public class Age{
     }
     public static void main(String[]args){
         System.out.println("Enter birthday in yyyy-mm-dd");
-        System.out.println("Remember to add 0 in front mm 09 for september");
         Scanner z=new Scanner(System.in);
         String birthday= z.nextLine();
         
