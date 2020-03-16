@@ -23,7 +23,7 @@ public class Q4 {
 		
 		System.out.println ("Enter distance in meter: ");
 		option = sc.next();
-		double meters = Integer.parseInt(option1)*3.280;
+		double meters = Integer.parseInt(option)*3.280;
 		System.out.println (option + " m is " + meters + " feet ");
 		break;
 
@@ -35,8 +35,8 @@ public class Q4 {
 		System.out.println("Enter an amount in CAD");
 		option = sc.next();
 		    	
-		double currencyUSD = factor * Integer.parseInt(option1);
-		currencyEUR = factor2 * Integer.parseInt(option1);
+		double currencyUSD = factor * Integer.parseInt(option);
+		currencyEUR = factor2 * Integer.parseInt(option);
 		System.out.println( option + " CAD is equal to " + currencyUSD + " USD.");
 		break;	
 				
