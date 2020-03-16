@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Temperaturefinal{
+public class Q3{
 
 	public static void main(String[]args){
 	  
@@ -14,7 +14,7 @@ public class Temperaturefinal{
     	System.out.println( "\nTemperature is " + temp1 + " C.");
     	// prints the entered temperature in C
 	  
-	temp2 = (temp1 < 0) ? "It is cold":"It ishot"; 
+	temp2 = (temp1 < 0) ? "It is cold":"It is hot"; 
 	// if temp less than 0 then cold else if hot
       	System.out.println("\n" + temp2);
 	// prints a message based on temperature     
