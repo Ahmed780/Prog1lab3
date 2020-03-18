@@ -7,7 +7,7 @@ public class EmailAddress {
     System.out.print(" Enter a word: " );
     String word = input.nextLine();
 
-    if (word.contains('@')) {
+    if (word.contains("@")) {
     System.out.println("It's an Email");
     }
     else {
