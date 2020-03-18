@@ -4,7 +4,7 @@ public class Websitefinal {
     public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
-    System.out.println("Please enter an URL links" );
+    System.out.println("Please enter a URL link" );
     String word = input.nextLine();
 
     if (word.contains("gov")) {
